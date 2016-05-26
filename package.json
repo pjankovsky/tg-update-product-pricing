@@ -1,0 +1,23 @@
+{
+  "name": "tg-update-product-pricing",
+  "version": "1.0.0",
+  "description": "Update product pricing via the Amazon Marketplace API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjankovsky/tg-update-product-pricing.git"
+  },
+  "author": "Peter <peter@jankovsky.me>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pjankovsky/tg-update-product-pricing/issues"
+  },
+  "homepage": "https://github.com/pjankovsky/tg-update-product-pricing#readme",
+  "dependencies": {
+    "aws-sdk": "^2.3.15",
+    "tg-node-lib": "github:pjankovsky/tg-node-lib"
+  }
+}
